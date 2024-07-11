@@ -1,2 +1,2 @@
 print("|| Shree Gajanan Prasanna ||") 
-print("|| Shree Ganeshay Namah ||") 
+print("||  Shree Ganeshay Namah  ||") 
