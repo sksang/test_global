@@ -5,7 +5,7 @@ coptions = webdriver.ChromeOptions()
 
 coptions.add_argument("--headless")
 
-driver = webdriver.Chrome()
+driver = webdriver.Chrome(options=coptions)
 
 driver.get("https://olympics.com/en/paris-2024")
 
