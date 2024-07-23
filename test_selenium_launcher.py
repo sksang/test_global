@@ -7,7 +7,7 @@ import time
 def test_a():
     options = webdriver.ChromeOptions()
     options.add_argument("--headless")
-    cdm = ChromeDriverManager().install()
+    #cdm = ChromeDriverManager().install()
     driver = webdriver.Chrome("chromedriver", options=options)
 
     driver.get("https://discuss.python.org/t/understanding-site-packages-directories/12959")
